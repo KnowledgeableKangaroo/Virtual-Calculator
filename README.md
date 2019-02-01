@@ -3,7 +3,7 @@
 The calculator app is an app I made from Processing java, finished in 3 days and first programmed on Eclipse. 
 
 7/19/2018
-Release v.1.0.1
+Release v.1.2.0
 Calculator
 
 The app consists of numbers, *, +, ^, %(modulus), -, =, and . (Working)
@@ -14,13 +14,13 @@ Finishing touches will include
 - mouse hover making the button display change in some way
 
 8/30/2018
-Release v1.1.4
+Release v1.3.0
 The Key Update
 
 The Key Update introduces newly written code with regular expressions, key-based input for numbers and operations, and negatives! The calculator app is still in beta, so stay tuned for adding multiple operations at once and parenthesis! (())
 
 8/28/2018
-Release v1.1.2
+Release v2.0.0
 The Regular Expression Update
 
 The app calculations are now refactored to be called from a single method in the Operation class
@@ -32,7 +32,7 @@ The less precision is still a problem even though the floats are not
 Overall, the app is much easier to code, use, and update
 
 12/16/2018
-Release v1.2.0
+Release v2.1.0
 The Hover Update
 
 New Operations! root, reciprocal, and x^2
