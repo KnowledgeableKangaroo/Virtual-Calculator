@@ -35,6 +35,7 @@ public class GridSquare{
       
     public void draw() {
       fill(c);
+      noStroke();
       rectMode(CORNER);
       rect(x, y, ws, hs);
     }
