@@ -42,7 +42,12 @@ public class Operation {
     }
     double double1 = calculator.StringToDouble(String.join("", ClickedNumbers)); // Converts the joined ClickedNumbers array list before the sign into a double
     System.out.println("double1: " + double1);
-  
+    
+    if (operationSymbol.equals("\u221A")) {
+      System.out.println("root");
+      new calculator().setTextSize(10);
+    }    
+
     ClickedNumbers.clear();
     int equalsIndex = userInput.indexOf("="); // Find the location at which the user pressed equals
   

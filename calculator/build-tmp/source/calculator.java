@@ -189,6 +189,10 @@ public static double StringToDouble(String string) {
   return Double.parseDouble(string);
 }
 
+public void setTextSize(float pts) {
+  textSize(pts);
+}
+
 public void mouseReleased() {
   for (int i = 0; i < rows; i++) {
     for (int j = 0; j < cols; j++) {
@@ -247,6 +251,7 @@ public class GridSquare{
       
     public void draw() {
       fill(c);
+      noStroke();
       rectMode(CORNER);
       rect(x, y, ws, hs);
     }
